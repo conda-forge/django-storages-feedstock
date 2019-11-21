@@ -1,6 +1,6 @@
 {% set name = "django-storages" %}
-{% set version = "1.7.2" %}
-{% set sha256 = "f3b3def96493d3ccde37b864cea376472baf6e8a596504b209278801c510b807" %}
+{% set version = "1.8" %}
+{% set sha256 = "9322ab74ba6371e2e0fccc350c741686ade829e43085597b26b07ae8955a0a00" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
