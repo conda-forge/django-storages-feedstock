@@ -7,13 +7,17 @@ Package license: BSD-3-Clause
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/django-storages-feedstock/blob/master/LICENSE.txt)
 
-Summary: django-storages is a project to provide a variety of storage backends in a single library.
+Summary: Support for many storage backends in Django
 
 Development: https://github.com/jschneier/django-storages
 
 Documentation: https://django-storages.readthedocs.io/en/latest/
 
-This repo began as a fork of the original library under the package name of django-storages-redux and became the official successor (releasing under django-storages on PyPI) in February of 2016. This library is usually compatible with the currently supported versions of Django. Check the Trove classifiers in setup.py to be sure.
+django-storages is a project to provide a variety of storage backends in a single library.
+
+This library is usually compatible with the currently supported versions of Django.
+Check the Trove classifiers in setup.py to be sure.
+
 
 Current build status
 ====================
