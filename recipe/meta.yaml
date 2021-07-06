@@ -36,6 +36,7 @@ test:
     - pip check
     - pytest tests/integration/
   requires:
+    - azure-storage-blob
     - pip
     - pytest
   source_files:
