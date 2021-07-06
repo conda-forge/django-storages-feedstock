@@ -34,13 +34,8 @@ test:
     - storages.backends
   commands:
     - pip check
-    - pytest tests/integration/
   requires:
-    - azure-storage-blob
     - pip
-    - pytest
-  source_files:
-    - tests/integration/
 
 about:
   home: https://github.com/jschneier/django-storages
