@@ -1,5 +1,5 @@
 {% set name = "django-storages" %}
-{% set version = "1.11.1" %}
+{% set version = "1.12" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-storages-{{ version }}.tar.gz
-  sha256: c823dbf56c9e35b0999a13d7e05062b837bae36c518a40255d522fbe3750fbb4
+  sha256: b3fdb4337b1e54b8a23fe41c62d91648e26249f9fc00e882d1d09e16207aa204
 
 build:
   number: 0
@@ -45,7 +45,7 @@ about:
   license_file: LICENSE
   description: |
     django-storages is a project to provide a variety of storage backends in a single library.
-    
+
     This library is usually compatible with the currently supported versions of Django.
     Check the Trove classifiers in setup.py to be sure.
   doc_url: https://django-storages.readthedocs.io/en/latest/
