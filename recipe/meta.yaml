@@ -1,5 +1,5 @@
 {% set name = "django-storages" %}
-{% set version = "1.13" %}
+{% set version = "1.13.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/django-storages-{{ version }}.tar.gz
-  sha256: d4fed98bbfb5347096ddfac2a6665d5133c788b9ec32c156ec5f7fb02ae57335
+  sha256: b3d98ecc09f1b1627c2b2cf430964322ce4e08617dbf9b4236c16a32875a1e0b
 
 build:
   number: 0
