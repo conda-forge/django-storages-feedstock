@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.7
+    - setuptools
   run:
     - django >=3.2
     - python >=3.7
